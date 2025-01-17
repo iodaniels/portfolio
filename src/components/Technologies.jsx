@@ -1,7 +1,7 @@
 import { BiLogoPostgresql } from "react-icons/bi"
 import { FaNodeJs, FaPython } from "react-icons/fa"
 import { RiReactjsLine } from "react-icons/ri"
-import { SiDjango, SiMongodb } from "react-icons/si"
+import { SiDjango, SiMongodb, SiTypescript } from "react-icons/si"
 import { motion } from "framer-motion"
 
 const iconVariants = (duration) => ({
@@ -74,6 +74,13 @@ const Technologies = () => {
           variants={iconVariants(4)}
         >
           <SiMongodb className="text-7xl text-green-600" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(6)}
+        >
+          <SiTypescript className="text-7xl text-blue-700" />
         </motion.div>
       </motion.div>
     </div>
