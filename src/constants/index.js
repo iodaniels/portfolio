@@ -27,6 +27,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Real State App",
+    description:
+      "Advanced digital solution for the management, purchase, sale and rental of real estate. Designed with the objective of optimizing real estate processes, our platform offers an efficient, secure and high-performance experience for both individuals and companies in the sector. With a focus on technological innovation and usability, this web application provides sophisticated tools that allow the search and management of properties in an agile way, allowing users to perform real estate transactions and management with total transparency and confidence.",
+    technologies: ["Next.js", "React", "Supabase", "Tailwindcss"],
+    github: "https://github.com/iodaniels/real-state"
+  },
+  {
+    title: "Job Portal App",
+    description:
+      "Web platform designed to connect employers and professional talent efficiently and securely. Our goal is to transform the job search and recruitment process by providing an innovative and easy-to-use tool that makes it easier for both companies and candidates to find the best job opportunities and solutions. With a focus on simplicity, accessibility and customization, it offers a unique experience for those looking to expand their career or strengthen their team. Whether you are a professional looking for new challenges or a company searching for the right talent, our platform optimizes every step of the process to ensure successful results.",
+    technologies: ["React.js", "Node.js", "MongoDB", "Tailwindcss"],
+    github: "https://github.com/iodaniels/job-portal"
+  },
+  {
     title: "Hospital Management System",
     description:
       "A hospital management system is a software designed to assist in the management and administration of the different processes and resources within a hospital or healthcare institution. This system integrates various functionalities that allow an efficient control of medical, administrative, financial and operational services, improving the quality of service and reducing operating costs.",
